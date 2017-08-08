@@ -90,7 +90,8 @@
 
 (defun csharp/init-csharp-mode ()
   (use-package csharp-mode
-    :defer t))
+    :defer t
+    :mode "\\.rb\\'"))
 
 (defun csharp/post-init-evil-matchit ()
   (with-eval-after-load 'evil-matchit
